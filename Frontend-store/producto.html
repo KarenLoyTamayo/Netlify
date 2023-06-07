@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Proyecto 2</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img src="FrontEndStore_inicio/img/logo.png" alt="Logo de la pagina"  class="header__logo">
+        </a>
+    </header>
+    <nav class="navegationMenu">
+        <a href="index.html" class="nav__element nav__element--active">Tienda</a>  
+        <a href="nosotros.html" class="nav__element">Nosotros</a>
+    </nav> <!-- Navegation-menu-->
+    <main class="container">
+        <h1>React Js</h1>
+        <div class="camisa">
+            <img src="FrontEndStore_inicio/img/3.jpg" alt="Camisa imagen" class="camisa__imagen">
+            <div class="camisa__contenido">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis pariatur labore quisquam tempora provident et, quos deleniti maiores, exercitationem voluptatibus, repudiandae a sequi possimus quae. Dolore eligendi possimus veritatis error.</p>
+                <form class="formulario">
+                    <select class="formulario__campo">
+                        <option value="Selec" disabled selected>--Seleciona una talla--</option>
+                        <option value="Chica">Chica</option>
+                        <option value="Mediana">Mediana</option>
+                        <option value="Grande">Grande</option>
+                    </select>
+                    <input type="number" placeholder="Cantidad" min="1" class="formulario__campo">
+                    <input type="submit" value="Agregar al carrito" class="formulario__submit">
+                </form> <!--formulario-->
+            </div> <!--camisa contenido -->
+        </div> <!--camisa-->
+    </main> <!--container-->
+
+    <footer class="footer">
+        <p class="footer__text">Fron end Store todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
